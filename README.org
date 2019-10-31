@@ -4,7 +4,7 @@
 
 * Library Information
   - Name :: AD57x1R
-  - Version :: 1.0
+  - Version :: 1.0.0
   - URL :: https://github.com/Sergsan79/AD57x1R
   - Author :: Sergey Todorov
   - Email :: alloa@mail.ru
