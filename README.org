@@ -12,8 +12,9 @@
 For ARDUINO.
 Provides an SPI based interface to the AD5721R, and the AD5761R Quad 12-/16-Bit Unipolar, Voltage Output DACs
 
-    AD57x1R(uint8_t Part_DAC, int ALERT, int SYNC, int RESET, int CLEAR, int LDAC); // INIT
-    int32_t AD57x1R_write_control_register (struct control_register dev);           // Write to control register ADD 04
+* Information
+    -AD57x1R(uint8_t Part_DAC, int ALERT, int SYNC, int RESET, int CLEAR, int LDAC); :: INIT
+    -int32_t AD57x1R_write_control_register (struct control_register dev); :: Write to control register ADD 04
     int32_t AD57x1R_write_input_register( uint16_t dac_data);                       // Write to input register (no update) ADD 01
     int32_t AD57x1R_write_update_dac_register( uint16_t dac_data);                  // Write and update DAC register ADD 03
     int32_t AD57x1R_update_dac_register();                                          // Update DAC register from input register ADD 02
